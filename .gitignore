@@ -1,0 +1,44 @@
+# Ignore IntelliJ files
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea
+atlassian-ide-plugin.xml
+TODO.md
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings
+.groovy
+
+# Ignore vim file
+*~
+*#
+
+*.chproj
+.DS_Store
+
+# Ignore specific grails file/directory
+target
+target-eclipse
+lib
+out
+stacktrace.log
+
+# Cobertura file
+cobertura.ser
+
+# Personal config
+plugins
+
+# Unknown temp files
+*.swp
+
+# Ignore any logs files
+*.log
+
+# Ignore git's conflicts file.
+*.orig
+mirakl-batch/mirakl-batch-core/output
